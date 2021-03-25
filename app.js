@@ -31,6 +31,4 @@ app.get("/googleplay", (req, res) => {
   res.json(results);
 });
 
-app.listen(8000, () => {
-  console.log("Eek! Google is watching us now!");
-});
+module.exports = app;
